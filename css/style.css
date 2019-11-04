@@ -1,25 +1,32 @@
 html, body {
     background: url("../assets/CapaFundo.jpg") no-repeat fixed;
     background-size: cover;
-    height: 100%;
     font-family: Arial, sans-serif;
 }
 
 /* PopUp BOX*/
+
 .box {
-    width: 40%;
-    margin: 0 auto;
+    width: 70%;
+    margin: 10px auto 0 auto;
     background: rgba(255, 255, 255, 0.2);
-    padding: 35px;
+    padding: 25px;
     border: 2px solid #fff;
     border-radius: 20px/50px;
     background-clip: padding-box;
     text-align: center;
 }
 
+.box h1 {
+    margin-top: 0;
+    color: #000000;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
 .button {
     text-align: center;
     margin: auto;
+    width: 60%;
     display: flex;
     position: relative;
     text-decoration: none;
@@ -65,28 +72,39 @@ html, body {
 .popup {
     margin: 70px auto;
     padding: 20px;
-    background: #fff;
     border-radius: 5px;
     box-sizing: border-box;
     width: 50%;
+    height: 90%;
     position: relative;
     transition: all 1s ease-in-out;
 }
 
+.popup .imgFundo {
+    filter: blur(5px);
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
 .popup h2 {
-    margin-top: 0;
-    color: #333;
+    position: absolute;
+    top: 2%;
+    left: 7%;
+    color: #e6f6b9;
     font-family: Tahoma, Arial, sans-serif;
 }
 
 .popup .close {
     position: absolute;
-    margin: auto 85%;
+    top: 4%;
+    left: 80%;
     transition: all 200ms;
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
-    color: #333;
+    color: #e6f6b9;
 }
 
 .popup .close:hover {
@@ -94,8 +112,12 @@ html, body {
 }
 
 .popup .content {
-    max-height: 30%;
-    overflow: auto;
+    position: absolute;
+    top: 14%;
+    left: 18%;
+    color: #fff;
+    width: 80%;
+    transform: translate(-12%, -7%);
 }
 
 .popup .content a {
@@ -114,9 +136,7 @@ html, body {
 .container {
     width: 90vh;
     height: 90vh;
-    text-align: center;
     display: flex;
-    position: relative;
     align-items: center;
     justify-content: center;
     margin: auto;
