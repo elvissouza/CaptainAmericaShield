@@ -81,27 +81,29 @@ html, body {
 }
 
 .popup .imgFundo {
-    filter: blur(5px);
+    filter: contrast(200%) brightness(30%);
     width: 100%;
     height: 100%;
     border-radius: 5px;
     box-sizing: border-box;
 }
 
-.popup h2 {
+.popup .title {
     position: absolute;
-    top: 2%;
+    top: 2vh;
     left: 7%;
+    width: 70%;
+    font-size: 4vh;
     color: #e6f6b9;
     font-family: Tahoma, Arial, sans-serif;
 }
 
 .popup .close {
     position: absolute;
-    top: 4%;
+    top: 7%;
     left: 80%;
     transition: all 200ms;
-    font-size: 30px;
+    font-size: 5vh;
     font-weight: bold;
     text-decoration: none;
     color: #e6f6b9;
@@ -111,9 +113,10 @@ html, body {
     color: #051b46;
 }
 
-.popup .content {
+.popup .content p {
     position: absolute;
-    top: 14%;
+    font-size: 2vh;
+    top: 20vh;
     left: 18%;
     color: #fff;
     width: 80%;
@@ -226,3 +229,28 @@ html, body {
     top: 3.5vh;
     right: 6.7vh;
 }
+
+@media (max-width: 1024px){
+
+    .popup {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .popup .title { 
+        font-size: 3vh;
+    }
+    
+    .popup .close {
+        top: 5%;
+        left: 85%;
+        }
+    
+    .popup .content p {
+        font-size: 2vh;
+        top: 20vh;
+        left: 18%;
+
+    }
+  
+  }
