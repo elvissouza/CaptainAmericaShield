@@ -10,7 +10,6 @@ html, body {
     background-image: url('../assets/CapaFundo.jpg');
     background-repeat: no-repeat;
     background-position: center top;
-
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -70,11 +69,9 @@ html, body {
     left: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.7);
-    transition: opacity 500ms;
     align-items: center;
     justify-content: center;
 }
-
 
 .popup {
     padding: 25px;
@@ -270,7 +267,6 @@ html, body {
 @media only screen and (max-width: 500px) {
     .popup .content p {
         top: 30%;
-
     }
     .box h1 {
         font-size: 20px;
