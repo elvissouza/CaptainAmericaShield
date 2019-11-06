@@ -14,4 +14,4 @@
 
 ---
 
-<p>Não há muitas funcionalidades complexas, estou aprendendo, creio que há bastante imperfeições nas dimensões, mas ao longo dos estudos vou aprimorando. <br/>Caso tenha dicas, books ou artigos para me indicar. Ficarei muito feliz 💓</p>
+<p>Não há muitas funcionalidades complexas, estou aprendendo, creio que há bastante imperfeições nas dimensões, tentei colocar responsivo espero que funcione em todos computadores, mas mesmo assim ao longo dos estudos vou aprimorando as <b>skills</b>. <br/>Caso tenha dicas, books ou artigos para me indicar. Ficarei muito feliz 💓</p>
