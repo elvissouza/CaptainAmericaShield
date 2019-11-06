@@ -18,7 +18,7 @@
         <!-- History of Captain America-->
         <div class="box">
             <h1>Capitão America Historia</h1>
-            <a class="button" href="#popup1">Capitão América Resumo</a>
+            <button class="button">Capitão América Resumo</button>
         </div>
         <!--Shield Content -->
         <div class="container">
@@ -38,7 +38,7 @@
         <div id="popup1" class="overlay">
             <div class="popup">
                 <img class="imgFundo" src="./assets/popUpFundo.jpg" alt="America">
-                <a class="close" href="">x</a>
+                <button class="close">x</button>
                 <h2 class="title">Segunda Guerra Mundial</h2>
                 <div class="content">
                     <p>
@@ -91,13 +91,17 @@
 <script>
 
     $(".container").click(() => {
-
+        $('.fundoBackground').css("background-image", "url(assets/CapaFundo2.jpg)");
         $('.fundoBackground').css("filter", "saturate(0)");
     });
     $(".button").click(() => {
+        $('.overlay').fadeIn();
+        $('.fundoBackground').css("background-image", "url(assets/CapaFundo.jpg)");
         $('.fundoBackground').css("filter", "saturate(1)");
     });
-
+    $(".close").click(() => {
+        $('.overlay').fadeOut();
+    });
 </script>
 
 </html>
