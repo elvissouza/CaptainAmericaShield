@@ -1,32 +1,27 @@
 html, body {
     font-family: Arial, Tahoma, sans-serif;
-    width: 100%;
-    height: 100vh;
-    overflow: auto;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: block;
 }
 
 .fundoBackground {
+    position: absolute;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     overflow: auto;
-    background: url('../assets/CapaFundo.jpg') no-repeat fixed center top;
+    background-image: url('/assets/CapaFundo.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: block;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-    display: block;
 }
 
 /* PopUp BOX*/
 
 .box {
     width: 70%;
-    margin: 10px auto 15% auto;
+    margin: 1% auto 2% auto;
     background: rgba(255, 255, 255, 0.2);
     padding: 25px;
     border: 2px solid #fff;
@@ -69,29 +64,26 @@ html, body {
 
 .overlay {
     position: fixed;
+    display: none;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.7);
     transition: opacity 500ms;
-    visibility: hidden;
-    opacity: 0;
+    align-items: center;
+    justify-content: center;
 }
 
-.overlay:target {
-    visibility: visible;
-    opacity: 1;
-}
 
 .popup {
-    margin: auto;
     padding: 25px;
+    margin: auto 20%;
     border-radius: 5px;
     box-sizing: border-box;
-    width: 50%;
+    width: 65%;
     height: 90%;
-    position: relative;
+    position: absolute;
     transition: all 1s ease-in-out;
 }
 
@@ -106,7 +98,7 @@ html, body {
 .popup .title {
     position: absolute;
     word-wrap: break-word;
-    top: 4%;
+    top: 5%;
     left: 8%;
     width: 70%;
     font-size: 28px;
@@ -117,13 +109,16 @@ html, body {
 
 .popup .close {
     position: absolute;
-    top: 7%;
+    top: 6%;
     left: 80%;
     transition: all 200ms;
     font-size: 34px;
     font-weight: bold;
     text-decoration: none;
+    border-radius: 2px;
     color: #e6f6b9;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 .popup .close:hover {
@@ -132,8 +127,8 @@ html, body {
 
 .popup .content p {
     position: absolute;
-    font-size: 14px;
-    top: 20%;
+    font-size: 18px;
+    top: 17%;
     left: 18%;
     color: #fff;
     transition: all 1s ease-in-out;
@@ -155,7 +150,6 @@ html, body {
 /*SHIELD DOWM*/
 
 .container {
-    margin: auto;
     width: 100%;
     display: flex;
     align-items: center;
@@ -254,6 +248,7 @@ html, body {
         font-size: 24px;
     }
     .popup {
+        margin: auto;
         width: 100%;
         height: 90%;
     }
@@ -268,18 +263,15 @@ html, body {
     }
     .popup .content p {
         font-size: 12px;
-        top: 20%;
         left: 20%;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .popup .content p {
-        font-size: 12px;
         top: 30%;
-        left: 20%;
+
     }
-}
     .box h1 {
         font-size: 20px;
     }
