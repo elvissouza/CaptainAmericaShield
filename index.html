@@ -36,53 +36,63 @@
         </div>
         <!-- POPUP History of Captain America-->
         <div id="popup1" class="overlay">
-            <div class="popup">
-                <img class="imgFundo" src="./assets/popUpFundo.jpg" alt="America">
-                <button class="close">x</button>
-                <h2 class="title">Segunda Guerra Mundial</h2>
-                <div class="content">
-                    <p>
-                        O Capitão América foi o maior de uma onda de super-heróis que surgiram sob a bandeira do
-                        patriotismo
-                        norte-americano e que foram apresentados ao mundo pelas companhias de Histórias em Quadrinhos,
-                        durante os anos da Segunda Guerra Mundial. Ao lado de seu parceiro Bucky, o Capitão América
-                        enfrentou as hordas nazistas durante a Segunda Guerra Mundial, mas caiu na obscuridade após o
-                        fim do
-                        conflitsse "qualquer coisa" é tão literal que ele se torna parte de um experimento para a
-                        criação de
-                        soldados superiores em tudo: o "projeto supersoldado", que consistia em um soro especial e a
-                        radiação de raios gerando um crescimento físico geral, tornando um ser debilitado como Steve
-                        Rogers
-                        em um superatleta musculoso, forte, veloz e ágil. Contudo, como na equipe do projeto havia um
-                        agente
-                        duplo a serviço de Hitler, o cientista que criou o "soro do supersoldado" é morto por esse
-                        agente.
-                        Como não havia registro escrito da fórmula, essa se perdeu junto com a vida do cientista e Steve
-                        Rogers acaba se tornando o único daquilo que deveria ser um exército de
-                        supersoldados.<br /><br />
-                        Com o fim da Guerra, os executivos da Comics decidiram suspender as
-                        histórias do personagem. Em 1964, a Marvel reviveu o Capitão América ao revelar que ele tinha
-                        caído
-                        de um avião experimental
-                        no Atlântico Norte nos últimos dias da guerra e que passou as últimas décadas congelado, num
-                        estado
-                        de morte aparente. O herói ressurgiu com uma nova geração de leitores como o
-                        líder de um grupo de super-heróis conhecido como os Vingadores. Suas primeiras histórias solo
-                        foram
-                        lançadas na revista Tales of Suspense, dividindo as páginas com
-                        aventuras do Homem de Ferro. Nelas, a dupla Lee/Kirby procuraram justificar um super-herói sem
-                        poderes, apresentando o Capitão como "o maior lutador do mundo", enfrentando vilões
-                        representantes
-                        de modalidades de lutas como o Sumô ou o francês Savate (Batroc). Nos anos 1970 enfrentou o
-                        Império
-                        Secreto, uma organização racista inspirada na Ku Klux Klan,
-                        num arco de história em que os X-Men e vários mutantes foram caçados e capturados pelos
-                        criminosos.
-                        Também nessa época iniciou sua parceria com o super-herói Falcão Negro. Mais tarde enfrentaria a
-                        Força Nacional, outra organização racista e ultraconservadora. Nesse confronto seria dado como
-                        morta
-                        sua namorada e agente secreta Sharon Carter (Agente 13).<br />
-                        <b>Refer: </b><i><a href="https://marveldatabase.fandom.com">Marvel DB</a></i></p>
+            <div class="overlay-container">
+                <div class="popup">
+                    <button class="close">x</button>
+                    <h2 class="title">Segunda Guerra Mundial</h2>
+                    <div class="content">
+                        <p>
+                            O Capitão América foi o maior de uma onda de super-heróis que surgiram sob a bandeira do
+                            patriotismo
+                            norte-americano e que foram apresentados ao mundo pelas companhias de Histórias em
+                            Quadrinhos,
+                            durante os anos da Segunda Guerra Mundial. Ao lado de seu parceiro Bucky, o Capitão América
+                            enfrentou as hordas nazistas durante a Segunda Guerra Mundial, mas caiu na obscuridade após
+                            o
+                            fim do
+                            conflitsse "qualquer coisa" é tão literal que ele se torna parte de um experimento para a
+                            criação de
+                            soldados superiores em tudo: o "projeto supersoldado", que consistia em um soro especial e a
+                            radiação de raios gerando um crescimento físico geral, tornando um ser debilitado como Steve
+                            Rogers
+                            em um superatleta musculoso, forte, veloz e ágil. Contudo, como na equipe do projeto havia
+                            um
+                            agente
+                            duplo a serviço de Hitler, o cientista que criou o "soro do supersoldado" é morto por esse
+                            agente.
+                            Como não havia registro escrito da fórmula, essa se perdeu junto com a vida do cientista e
+                            Steve
+                            Rogers acaba se tornando o único daquilo que deveria ser um exército de
+                            supersoldados.<br /><br />
+                            Com o fim da Guerra, os executivos da Comics decidiram suspender as
+                            histórias do personagem. Em 1964, a Marvel reviveu o Capitão América ao revelar que ele
+                            tinha
+                            caído
+                            de um avião experimental
+                            no Atlântico Norte nos últimos dias da guerra e que passou as últimas décadas congelado, num
+                            estado
+                            de morte aparente. O herói ressurgiu com uma nova geração de leitores como o
+                            líder de um grupo de super-heróis conhecido como os Vingadores. Suas primeiras histórias
+                            solo
+                            foram
+                            lançadas na revista Tales of Suspense, dividindo as páginas com
+                            aventuras do Homem de Ferro. Nelas, a dupla Lee/Kirby procuraram justificar um super-herói
+                            sem
+                            poderes, apresentando o Capitão como "o maior lutador do mundo", enfrentando vilões
+                            representantes
+                            de modalidades de lutas como o Sumô ou o francês Savate (Batroc). Nos anos 1970 enfrentou o
+                            Império
+                            Secreto, uma organização racista inspirada na Ku Klux Klan,
+                            num arco de história em que os X-Men e vários mutantes foram caçados e capturados pelos
+                            criminosos.
+                            Também nessa época iniciou sua parceria com o super-herói Falcão Negro. Mais tarde
+                            enfrentaria a
+                            Força Nacional, outra organização racista e ultraconservadora. Nesse confronto seria dado
+                            como
+                            morta
+                            sua namorada e agente secreta Sharon Carter (Agente 13).<br />
+                            <b>Refer: </b><i><a href="https://marveldatabase.fandom.com">Marvel DB</a></i></p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -91,7 +101,7 @@
 <script>
 
     $(".container").click(() => {
-        $('.fundoBackground').css("background-image", "url(assets/CapaDark.jpg)");
+        $('.fundoBackground').css("background-image", "url(/assets/CapaDark.jpg)");
         $('.fundoBackground').css("filter", "saturate(0)");
     });
     $(".button").click(() => {
