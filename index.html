@@ -90,7 +90,31 @@
                             Força Nacional, outra organização racista e ultraconservadora. Nesse confronto seria dado
                             como
                             morta
-                            sua namorada e agente secreta Sharon Carter (Agente 13).<br />
+                            sua namorada e agente secreta Sharon Carter (Agente 13).<br /><br />
+
+                            Apesar da reformulação dos anos 1960, foram feitas novas aventuras ambientadas na época da
+                            II Guerra, quando seu parceiro era o garoto James Buchanan Barnes, vulgo Bucky. Ambos e mais
+                            Namor e outros heróis menos conhecidos dos anos 1940 formaram o super-grupo Os I
+
+                            Steve Rogers, nascido em 4 de julho de 1922, depois que renasceu na Era Moderna, teve muitas
+                            dificuldades para se adaptar a vida civil. No início morava na mansão dos Vingadores e era
+                            praticamente um super-herói de tempo integral. Continuou nesse ritmo quando se aliou a
+                            Shield e teve um romance com a Agente 13. Somente no fim da década de 1960, Steve Rogers
+                            começou a buscar uma vida própria. Um desentendimento com Nick Fury o fez se afastar da
+                            espionagem. Comprou uma motocicleta e saiu em viagem pelo interior do país. Retornaria
+                            depois que o Caveira Vermelha voltou a atacar. Depois Steve entra para a força policial de
+                            Nova York, mas logo tem a sua vida conturbada em função de acusação de que era corrupto,
+                            pois quase não aparecia para as rondas e mesmo assim não era demitido (seus superiores
+                            conheciam sua identidade). <br /><br />O acusador era seu parceiro, que logo se descobriu
+                            que agia como
+                            o vilão Chefe Encapuzado. Um bom tempo depois Steve voltou a tentar ter uma vida civil.
+                            Virou desenhista de quadrinhos
+                            e alugou um apartamento na cidade. Mas também não conseguiu cumprir seus compromissos. Sua
+                            vida mudou quando recebeu uma boa quantia em dinheiro, resultado de anos de soldo militar
+                            que não lhe haviam sido entregues na época do seu desaparecimento. Steve organizou uma rede
+                            de informações para ajudá-lo em suas missões, mas logo seria procurado pelo Governo que
+                            queria explicações sobre a sua súbita fortuna. Esse problema levou a que Steve fosse privado
+                            por um certo tempo de sua identidade de Capitão América.<br /><br /><br />
                             <b>Refer: </b><i><a href="https://marveldatabase.fandom.com">Marvel DB</a></i></p>
                     </div>
                 </div>
@@ -100,15 +124,13 @@
 </body>
 <script>
 
-    $(".container").click(() => {
-        $('.fundoBackground').css("background-image", "url(/assets/CapaDark.jpg)");
-        $('.fundoBackground').css("filter", "saturate(0)");
+    $(".fundoBackground").click(function () {
+        $(this).toggleClass("minus");
     });
     $(".button").click(() => {
         $('.overlay').fadeIn();
-        $('.fundoBackground').css("background-image", "url(assets/CapaFundo.jpg)");
-        $('.fundoBackground').css("filter", "saturate(1)");
     });
+
     $(".close").click(() => {
         $('.overlay').fadeOut();
     });
