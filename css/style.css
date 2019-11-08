@@ -6,8 +6,21 @@ html, body {
     position: absolute;
     width: 100%;
     height: 100%;
-    overflow: auto;
     background-image: url('../assets/CapaFundo.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.fundoBackground.minus {
+    filter: saturate(0);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/CapaFundo2.jpg');
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
@@ -61,6 +74,17 @@ html, body {
     --darkreader-inline-bgcolor: #1e2022;
 }
 
+.overlay-container {
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
 .overlay {
     position: fixed;
     display: none;
@@ -74,22 +98,34 @@ html, body {
 }
 
 .popup {
-    padding: 25px;
-    margin: auto 20%;
-    border-radius: 5px;
-    box-sizing: border-box;
+    background-image: url('../assets/popUpFundo.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     width: 65%;
+    overflow-x: hidden;
+    overflow-y: scroll;
     height: 90%;
-    position: absolute;
+    margin: auto;
+    border-radius: 5px;
+    position: relative;
     transition: all 1s ease-in-out;
 }
 
-.popup .imgFundo {
-    filter: contrast(200%) brightness(30%);
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-    box-sizing: border-box;
+.popup::-webkit-scrollbar-track {
+    background-color: rgb(41, 41, 41);
+}
+
+.popup::-webkit-scrollbar {
+    width: 6px;
+    background: rgb(139, 139, 139);
+}
+
+.popup::-webkit-scrollbar-thumb {
+    background: #505050;
 }
 
 .popup .title {
@@ -106,7 +142,7 @@ html, body {
 
 .popup .close {
     position: absolute;
-    top: 6%;
+    top: 5%;
     left: 80%;
     border: none;
     transition: all 200ms;
@@ -125,7 +161,7 @@ html, body {
 .popup .content p {
     position: absolute;
     font-size: 18px;
-    top: 17%;
+    top: 20%;
     left: 18%;
     color: #fff;
     transition: all 1s ease-in-out;
@@ -137,7 +173,8 @@ html, body {
     color: rgb(255, 255, 255);
     text-decoration: none;
     cursor: pointer;
-    transition: all 0.1s ease-out;
+    font-size: 22px;
+    padding-bottom: 20px;
     text-shadow: #888888 3px 5px 2px;
     --darkreader-inline-color: #ffffff;
     --darkreader-inline-bgimage: initial;
@@ -240,37 +277,25 @@ html, body {
 
 /* RESPONSIVO PART */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px), (max-height: 800px) {
     .box h1 {
-        font-size: 24px;
+        font-size: 20px;
     }
     .popup {
-        margin: auto;
         width: 100%;
         height: 90%;
     }
     .popup .title {
-        top: 5%;
+        top: 4%;
         left: 10%;
         font-size: 20px;
     }
-    .popup .close {
-        top: 5%;
-        left: 85%;
-    }
     .popup .content p {
+        top: 22%;
         font-size: 12px;
         left: 20%;
     }
-}
-
-@media only screen and (max-width: 500px) {
-    .popup .content p {
-        top: 30%;
-    }
-    .box h1 {
-        font-size: 20px;
-    }
+    /*Shield*/
     .outside3 {
         height: 260px;
         width: 260px;
@@ -306,5 +331,14 @@ html, body {
         transform: rotate(72deg);
         top: 17px;
         right: 29px;
+    }
+}
+
+@media only screen and (max-width: 370px),(max-height: 500px)  {
+    .popup .title {
+        top: 1%;
+    }
+    .popup .content p {
+        top: 35%;
     }
 }
