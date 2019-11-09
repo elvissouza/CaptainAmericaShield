@@ -9,7 +9,6 @@ html, body {
     width: 100%;
     height: 100%;
     overflow: hidden;
-
 }
 
 .fundoBackground {
@@ -34,7 +33,7 @@ html, body {
     background-image: url('../assets/CapaFundo2.jpg');
 }
 
-/* PopUp BOX*/
+/* PopUp BOX */
 
 .box {
     display: flex;
@@ -283,13 +282,13 @@ html, body {
 /* RESPONSIVO PART */
 
 @media only screen and (max-width: 800px) {
+    /*Popup Box*/
     .box {
         width: 100%;
         padding: 2%;
     }
-    .box h1 {    
+    .box h1 {
         font-size: 1.1em;
-
     }
     .button {
         width: auto;
@@ -306,7 +305,7 @@ html, body {
         font-size: 0.8em;
         margin: 5%;
     }
-    /*Shield*/
+    /* Shield */
     .outside3 {
         height: 260px;
         width: 260px;
@@ -342,17 +341,5 @@ html, body {
         transform: rotate(72deg);
         top: 17px;
         right: 29px;
-    }
-}
-
-/*@media only screen and (max-width: 370px), (max-height: 500px) {
-    .button {
-        width: auto;
-    }
-    .popup .title {
-        top: 1%;
-    }
-    .popup .content p {
-        top: 35%;
     }
 }
