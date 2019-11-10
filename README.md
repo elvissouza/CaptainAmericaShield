@@ -8,12 +8,12 @@
 ---
 
 <p>Parte inicial, demonstrando o escudo que há uma pequena animação, peguei de fonte no <b>CodePen</b> by <i>'Afonso Pacifer'</i>.<br/>Adicinei uma mudan;a de cor para branco e preto, exemplos abaixo (para dar um ar de dark 😛) </p>
-<img src ="https://raw.githubusercontent.com/elvissouza/CaptainAmericaShield/master/assets/example2.png" height= "400px" width= "49%" align="right">
-<img src ="https://raw.githubusercontent.com/elvissouza/CaptainAmericaShield/master/assets/example.png" height= "400px" width= "400x">
+<img src ="https://raw.githubusercontent.com/elvissouza/CaptainAmericaShield/master/assets/example2.png" height= "49%" width= "45%" align="right">
+<img src ="https://raw.githubusercontent.com/elvissouza/CaptainAmericaShield/master/assets/example.png" height= "49%" width= "45%">
 
 <p>Pressionando o botão abre um <b>POPUP</b> (estou aprendendo, dê um desconto ou uma dica para melhoria) o <b>POPUP</b> relata um pedaço da historia do capitão america, há referencias logo a baixo caso queira ler mais. <i>(indico)</i></p>
-<img src ="https://raw.githubusercontent.com/elvissouza/CaptainAmericaShield/master/assets/pressButton.png" height= "400px" width= "400px"align="right">
-<img src ="https://raw.githubusercontent.com/elvissouza/CaptainAmericaShield/master/assets/pressButton2.png" height= "400px" width= "400px">
+<img src ="https://raw.githubusercontent.com/elvissouza/CaptainAmericaShield/master/assets/pressButton.png" height= "49%" width= "45%px" align="right">
+<img src ="https://raw.githubusercontent.com/elvissouza/CaptainAmericaShield/master/assets/pressButton2.png" height= "49%" width= "45%">
 
 ---
 
