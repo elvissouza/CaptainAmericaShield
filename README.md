@@ -7,7 +7,7 @@
 
 ---
 
-<p>Parte inicial, demonstrando o escudo que há uma pequena animação, peguei de fonte no <b>CodePen</b> by <i>'Afonso Pacifer'</i>.<br/>Adicinei uma mudan;a de cor para branco e preto, exemplos abaixo (para dar um ar de dark 😛) </p>
+<p>Parte inicial, demonstrando o escudo que há uma pequena animação, peguei de fonte no <b>CodePen</b> by <i>'Afonso Pacifer'</i>.<br/>Adicionei uma mudança de cor para branco e preto, exemplos abaixo (para dar um ar de dark 😛) </p>
 <img src ="https://raw.githubusercontent.com/elvissouza/CaptainAmericaShield/master/assets/example2.png" height= "49%" width= "45%" align="right">
 <img src ="https://raw.githubusercontent.com/elvissouza/CaptainAmericaShield/master/assets/example.png" height= "49%" width= "45%">
 
