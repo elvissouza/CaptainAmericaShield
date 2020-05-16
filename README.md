@@ -8,8 +8,8 @@ Demo: [Clique Aqui](https://elvissouza.github.io/CaptainAmericaShield/)
 ---
 
 <p>Starting part, demonstrating the shield that there is a small animation, I took it from the source in <b>CodePen</b> by <i>'Afonso Pacifer'</i>.<br/>I added a option dark and light color clicking in shield, examples below 😛</p>
-<img src ="https://github.com/elvissouza/CaptainAmericaShield/blob/master/img/website-1.gif?raw=true" height= "49%" width= "45%" align="right">
-<img src ="https://github.com/elvissouza/CaptainAmericaShield/blob/master/img/website-2.gif?raw=true" height= "49%" width= "45%">
+<img src ="https://github.com/elvissouza/CaptainAmericaShield/blob/master/img/website-2.gif?raw=true" height= "49%" width= "45%" align="right">
+<img src ="https://github.com/elvissouza/CaptainAmericaShield/blob/master/img/website-1.gif?raw=true" height= "49%" width= "45%">
 
 <p>Pressing the button opens a <b>POPUP</b> (I'm learning, give a discount or a tip to improve) the <b>POPUP</b> tells a piece of the story of captain america, there are references below if you want to read more.<i>(indico)</i></p>
 
