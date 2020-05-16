@@ -1,21 +1,19 @@
-# Escudo do Capitão America com Animação ✔
-### Aprendendo um pouco as funcionalidades do poder que tem o CSS. Nada melhor que aprender, desenhando o escudo do seu personagem favorito né 😅
+# Captain America Shield with Animation ✔
+### Learning a little about the features of the power that CSS has. Nothing better than learning, drawing the shield of your favorite character right 😅
 
 ---
 
-Demonstração: [Clique Aqui](https://elvissouza.github.io/CaptainAmericaShield/)
+Demo: [Clique Aqui](https://elvissouza.github.io/CaptainAmericaShield/)
 
 ---
 
-<p>Parte inicial, demonstrando o escudo que há uma pequena animação, peguei de fonte no <b>CodePen</b> by <i>'Afonso Pacifer'</i>.<br/>Adicionei uma mudança de cor para branco e preto, exemplos abaixo (para dar um ar de dark 😛) </p>
-<img src ="https://raw.githubusercontent.com/elvissouza/CaptainAmericaShield/master/assets/example2.png" height= "49%" width= "45%" align="right">
-<img src ="https://raw.githubusercontent.com/elvissouza/CaptainAmericaShield/master/assets/example.png" height= "49%" width= "45%">
+<p>Starting part, demonstrating the shield that there is a small animation, I took it from the source in <b>CodePen</b> by <i>'Afonso Pacifer'</i>.<br/>I added a option dark and light color clicking in shield, examples below 😛</p>
+<img src ="https://github.com/elvissouza/CaptainAmericaShield/blob/master/img/website-1.gif?raw=true" height= "49%" width= "45%" align="right">
+<img src ="https://github.com/elvissouza/CaptainAmericaShield/blob/master/img/website-2.gif?raw=true" height= "49%" width= "45%">
 
-<p>Pressionando o botão abre um <b>POPUP</b> (estou aprendendo, dê um desconto ou uma dica para melhoria) o <b>POPUP</b> relata um pedaço da historia do capitão america, há referencias logo a baixo caso queira ler mais. <i>(indico)</i></p>
-<img src ="https://raw.githubusercontent.com/elvissouza/CaptainAmericaShield/master/assets/pressButton.png" height= "49%" width= "45%px" align="right">
-<img src ="https://raw.githubusercontent.com/elvissouza/CaptainAmericaShield/master/assets/pressButton2.png" height= "49%" width= "45%">
+<p>Pressing the button opens a <b>POPUP</b> (I'm learning, give a discount or a tip to improve) the <b>POPUP</b> tells a piece of the story of captain america, there are references below if you want to read more.<i>(indico)</i></p>
 
 ---
 
-<p>Não há muitas funcionalidades complexas, estou aprendendo, creio que há bastante imperfeições nas dimensões, tentei colocar responsivo espero que funcione em todos computadores, mas mesmo assim ao longo dos estudos vou aprimorando as <b>skills</b>. <br/>Caso tenha dicas, books ou artigos para me indicar. Ficarei muito feliz 💓</p>
+<p>The project does not have complex functions, I am still learning, if you have criticisms or suggest improvements, have tips, books or articles to refer me, thank you💓</p>
 
