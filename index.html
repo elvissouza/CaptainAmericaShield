@@ -1,138 +1,146 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="shortcut icon"
+      href="./assets/photoico.ico"
+      type="image/x-icon"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Captain America</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" href="./assets/photoico.ico" type="image/x-icon">
-    <script src="https://code.jquery.com/jquery-3.4.1.js"
-        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <title>Capitão América</title>
-</head>
-
-<body>
-    <div class="fundoBackground">
-        <!-- History of Captain America-->
-        <div class="box">
-            <h1>Capitão America Historia</h1>
-            <button class="button">Capitão América Resumo</button>
-        </div>
-        <!--Shield Content -->
-        <div class="container">
-            <div class="shield outside3">
-                <div class="shield outside2">
-                    <div class="shield outside1">
-                        <div class="center">
-                            <div class="star top"></div>
-                            <div class="star left"></div>
-                            <div class="star right"></div>
-                        </div>
-                    </div>
-                </div>
+  <body>
+    <div class="imageBackground" id="backgroundImg">
+      <!-- History of Captain America-->
+      <div class="box">
+        <h1>Captain America History</h1>
+        <button class="myBtn" id="myBtn">Captain America Summary</button>
+      </div>
+      <!--Shield Content -->
+      <div class="container" onclick="changeImg()">
+        <div class="shield outside3">
+          <div class="shield outside2">
+            <div class="shield outside1">
+              <div class="center">
+                <div class="star top"></div>
+                <div class="star left"></div>
+                <div class="star right"></div>
+              </div>
             </div>
+          </div>
         </div>
-        <!-- POPUP History of Captain America-->
-        <div id="popup1" class="overlay">
-            <div class="overlay-container">
-                <div class="popup">
-                    <h2 class="title">Segunda Guerra Mundial</h2>
-                    <button class="close">x</button>
-                    <div class="content">
-                        <p>
-                            O Capitão América foi o maior de uma onda de super-heróis que surgiram sob a bandeira do
-                            patriotismo
-                            norte-americano e que foram apresentados ao mundo pelas companhias de Histórias em
-                            Quadrinhos,
-                            durante os anos da Segunda Guerra Mundial. Ao lado de seu parceiro Bucky, o Capitão América
-                            enfrentou as hordas nazistas durante a Segunda Guerra Mundial, mas caiu na obscuridade após
-                            o
-                            fim do
-                            conflitsse "qualquer coisa" é tão literal que ele se torna parte de um experimento para a
-                            criação de
-                            soldados superiores em tudo: o "projeto supersoldado", que consistia em um soro especial e a
-                            radiação de raios gerando um crescimento físico geral, tornando um ser debilitado como Steve
-                            Rogers
-                            em um superatleta musculoso, forte, veloz e ágil. Contudo, como na equipe do projeto havia
-                            um
-                            agente
-                            duplo a serviço de Hitler, o cientista que criou o "soro do supersoldado" é morto por esse
-                            agente.
-                            Como não havia registro escrito da fórmula, essa se perdeu junto com a vida do cientista e
-                            Steve
-                            Rogers acaba se tornando o único daquilo que deveria ser um exército de
-                            supersoldados.<br /><br />
-                            Com o fim da Guerra, os executivos da Comics decidiram suspender as
-                            histórias do personagem. Em 1964, a Marvel reviveu o Capitão América ao revelar que ele
-                            tinha
-                            caído
-                            de um avião experimental
-                            no Atlântico Norte nos últimos dias da guerra e que passou as últimas décadas congelado, num
-                            estado
-                            de morte aparente. O herói ressurgiu com uma nova geração de leitores como o
-                            líder de um grupo de super-heróis conhecido como os Vingadores. Suas primeiras histórias
-                            solo
-                            foram
-                            lançadas na revista Tales of Suspense, dividindo as páginas com
-                            aventuras do Homem de Ferro. Nelas, a dupla Lee/Kirby procuraram justificar um super-herói
-                            sem
-                            poderes, apresentando o Capitão como "o maior lutador do mundo", enfrentando vilões
-                            representantes
-                            de modalidades de lutas como o Sumô ou o francês Savate (Batroc). Nos anos 1970 enfrentou o
-                            Império
-                            Secreto, uma organização racista inspirada na Ku Klux Klan,
-                            num arco de história em que os X-Men e vários mutantes foram caçados e capturados pelos
-                            criminosos.
-                            Também nessa época iniciou sua parceria com o super-herói Falcão Negro. Mais tarde
-                            enfrentaria a
-                            Força Nacional, outra organização racista e ultraconservadora. Nesse confronto seria dado
-                            como
-                            morta
-                            sua namorada e agente secreta Sharon Carter (Agente 13).<br /><br />
-
-                            Apesar da reformulação dos anos 1960, foram feitas novas aventuras ambientadas na época da
-                            II Guerra, quando seu parceiro era o garoto James Buchanan Barnes, vulgo Bucky. Ambos e mais
-                            Namor e outros heróis menos conhecidos dos anos 1940 formaram o super-grupo Os I
-
-                            Steve Rogers, nascido em 4 de julho de 1922, depois que renasceu na Era Moderna, teve muitas
-                            dificuldades para se adaptar a vida civil. No início morava na mansão dos Vingadores e era
-                            praticamente um super-herói de tempo integral. Continuou nesse ritmo quando se aliou a
-                            Shield e teve um romance com a Agente 13. Somente no fim da década de 1960, Steve Rogers
-                            começou a buscar uma vida própria. Um desentendimento com Nick Fury o fez se afastar da
-                            espionagem. Comprou uma motocicleta e saiu em viagem pelo interior do país. Retornaria
-                            depois que o Caveira Vermelha voltou a atacar. Depois Steve entra para a força policial de
-                            Nova York, mas logo tem a sua vida conturbada em função de acusação de que era corrupto,
-                            pois quase não aparecia para as rondas e mesmo assim não era demitido (seus superiores
-                            conheciam sua identidade). <br /><br />O acusador era seu parceiro, que logo se descobriu
-                            que agia como
-                            o vilão Chefe Encapuzado. Um bom tempo depois Steve voltou a tentar ter uma vida civil.
-                            Virou desenhista de quadrinhos
-                            e alugou um apartamento na cidade. Mas também não conseguiu cumprir seus compromissos. Sua
-                            vida mudou quando recebeu uma boa quantia em dinheiro, resultado de anos de soldo militar
-                            que não lhe haviam sido entregues na época do seu desaparecimento. Steve organizou uma rede
-                            de informações para ajudá-lo em suas missões, mas logo seria procurado pelo Governo que
-                            queria explicações sobre a sua súbita fortuna. Esse problema levou a que Steve fosse privado
-                            por um certo tempo de sua identidade de Capitão América.<br /><br /><br />
-                            <b>Refer: </b><i><a href="https://marveldatabase.fandom.com">Marvel DB</a></i></p>
-                    </div>
-                </div>
-            </div>
+      </div>
+      <!-- POPUP History of Captain America-->
+      <div id="popup1" class="modal">
+        <div class="modal-content animateTop">
+          <span class="close">&times;</span>
+          <h2 class="title">Captain America The History</h2>
+          <p class="text-indent">
+            During the dark days of the early 1940's a covert US military
+            experiment turned him into Americas first Super-Soldier, Captain
+            America. Throughout the war, Cap and his partner Bucky (James
+            Buchanan Barnes) fought alongside infantry and with a group of
+            heroes known as the Invaders. In the closing months of World War II,
+            Captain America and Bucky were both presumed dead in an explosion.
+            Decades later, Captain America was found trapped in ice and revived
+            in the modern world. He later worked with other heroes and became a
+            member, and later leader of The Avengers.
+          </p>
+          <p class="text-indent">
+            Powers: the SSS enhanced him to be the human race's most finest
+            physical and intellectual specimen granting him enhanced strength,
+            speed, durability, reflexes, intelligence, healing, and longevity.
+            Abilities: Master Martial Artist: Rogers is a master of hand-to-hand
+            combat and of numerous martial arts through his years of training in
+            military combatives and under various private instructors, after
+            being unfrozen Captain America trained in modern martial arts and in
+            a short amount of time became adept in all forms of fighting styles.
+            He mainly utilizes American Boxing, Judo, Aikido, Jujutsu. However,
+            he has utilized other martial arts including hand techniques in
+            Ninjutsu, Karate, Muay Thai, Escrima, Chin Na, Wing Chun, Northern
+            Shaolin kicking methods and Wushu with his gymnastics ability
+            creating a style that suits his strengths and enables him to use his
+            knowledge to the best of his ability. Rogers has displayed all types
+            of martial arts techniques from physical combat to chi manipulation.
+            He is considered one of the finest martial artists the Earth has
+            ever known.
+          </p>
+          <p class="text-indent">
+            Master Shieldmanship: His years of training and experience with his
+            unique shield, as well as its physical properties, allow him to
+            accomplish amazing feats with the item. Aside from bashing foes and
+            blocking incoming attacks, he is able to throw it with nearly
+            perfect aim. Rogers can hit multiple targets with the same throw by
+            means of ricochet, and could even achieve a boomerang-like return
+            effect, allowing him to strike enemies from behind or retrieve the
+            shield without objects to ricochet from. Master Tactician and
+            Strategist: Rogers is an accomplished strategist. He had been widely
+            considered one of, if not the greatest, tacticians on the planet,
+            both on and off the battlefield. He is able to formulate battle
+            strategies and his brilliant tactical sense allows him to alter any
+            strategy to fit the changing need of the situation. Advanced
+            Military Operator: He is well-versed in all Armed force disciplines
+            including intelligence gathering, escape arts, assassination,
+            demolition, survival tactics, hunting, swimming, mountaineering,
+            march/drill skills, map making and reading, decoding cipher and
+            other secret code messages, reading and making wood craft signs and
+            other secret code languages, disguising, interrogation, computers,
+            explosives, communication systems, vehicles and electronic
+            appliances used in armed forces.
+          </p>
+          <p class="text-indent">
+            Master Acrobat: His years of training and experience have made him
+            an expert acrobat, gymnast, and aerialist. He often utilizes these
+            talents in combat for both evasive and offensive purposes. Cyclops
+            and Cap argue in mid-battle Indomitable Will: Rogers is a very
+            strong-willed person. He is able to overcome most forms of
+            temptation and resist the effects of extreme pain, drugs and toxins
+            to a great extent. Rogers accepts his own mortality, and refuses to
+            rob any sentient creature of its freedom. During the Forever War, he
+            destroyed the Forever Crystal, deciding it was too dangerous to
+            exist, despite the many benefits of its power. Rogers is also
+            capable of resisting all forms of mind control; only the strongest
+            willed individuals have a chance of enslaving him. Professional
+            Sketch Artist: He has great artistic skill which he developed from
+            childhood. Rogers often worked as a freelance illustrator and sketch
+            artist even loaning his skills to the NYPD for a time. He enjoys
+            drawing and does so with his free time.
+          </p>
+          <p class="text-indent">
+            Expert Marksman: He can throw most projectile weaponry with great
+            aim and is well-versed in the use of firearms, though he prefers not
+            to use them. Scarlet-captain-america-scarlet-witch 10241 Romance
+            with Scarlet Witch Expert Swordsman: Steve is proficient with swords
+            and staffs, but is more comfortable with his shield. Weapons
+            Proficiency: He does not typically utilize weapons other than his
+            shield, but in desperate situations he wields additional weapons to
+            ensure victory. He is proficient in wielding swords, daggers,
+            throwing knifes, staffs, sticks, tonfa, axes, maces and even
+            firearms. Multi-lingual: Rogers is fluent in English, German,
+            Russian, Spanish, Japanese, and some Italian. He might be lingual in
+            other languages. Expert Vehicular driver: He is proficient in
+            driving cars, motorcycles, trucks, jets, tankers, helicopters,
+            motorboats, submarines, and some types of trains and utility
+            vehicles
+            <br /><br /><br />
+            <b>Reference: </b
+            ><i><a href="https://marveldatabase.fandom.com">Marvel DB</a></i>
+          </p>
         </div>
+      </div>
     </div>
-</body>
-<script>
-
-    $(".fundoBackground").click(function () {
-        $(this).toggleClass("minus");
-    });
-    $(".button").click(() => {
-        $('.overlay').fadeIn();
-    });
-
-    $(".close").click(() => {
-        $('.overlay').fadeOut();
-    });
-</script>
-
+  </body>
+  <script src="./js/scripts.js"></script>
 </html>
