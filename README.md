@@ -17,3 +17,5 @@
 
 <p>The project does not have complex functions, I am still learning, if you have criticisms or suggest improvements, have tips, books or articles to refer me, thank you💓</p>
 
+## Support
+<a href="https://www.buymeacoffee.com/elvissouza" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
